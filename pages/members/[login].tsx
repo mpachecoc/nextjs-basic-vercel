@@ -10,6 +10,7 @@ export default function Member({ user }) {
 
   return(
     <div>
+      <h1>Members</h1>
       <img src={user.avatar_url} alt={user.name} width="80" style={{ borderRadius: 40 }} />
       <h1>{user.name}</h1>
       <p>{user.bio}</p>
